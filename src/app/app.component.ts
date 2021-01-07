@@ -11,4 +11,6 @@ export class AppComponent {
   address = '111 Test Street';
   phone = '555-444-5555';
   email = 'dana@test.com';
+  displayWork = true;
+  displayEducation = true;
 }

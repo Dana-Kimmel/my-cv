@@ -5,11 +5,11 @@ Address: {{address}}<br>
 Phone: {{phone}} <br>
 Email: {{email}} 
 </span>
-<span>
+<span *ngIf="displayWork">
   <h2>Work Experience</h2>
   <app-work-exp></app-work-exp>
 </span>
-<span>
+<span *ngIf="displayEducation">
   <h2>Education</h2>
   <app-education></app-education>
 </span>
